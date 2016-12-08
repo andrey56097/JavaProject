@@ -50,7 +50,7 @@ public class Main {
                 Date date = resultSet.getDate("created");
                 byte[] icon = resultSet.getBytes("icon");
 
-                System.out.println("id: " + id + ", title: " + title + ", description" + desc + ", rating: " + rating
+                System.out.println("id: " + id + ", title: " + title + ", description" + desc + ", rating ss: " + rating
                         + ", published: " + published + ", date " + date + ", icon: " + icon);
             }
 
